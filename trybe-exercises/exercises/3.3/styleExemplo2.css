@@ -1,0 +1,47 @@
+body {
+    font-family:cursive;
+    color: rgb(3, 174, 213);
+    font-size: 30px;
+}
+
+#praia {
+    width: 800px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: 1;
+}
+
+#pessoa {
+    width: 250px;
+    position: absolute;
+    right: 120px;
+    z-index: 2;
+    
+}
+
+#oculos {
+    width: 100px;
+    position: absolute;
+    right: 200px;
+    z-index: 3;
+    bottom: 830px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+#song {
+    position: absolute;
+    z-index: 5;
+    top:  510px;
+}
+
+.coqueiro {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
