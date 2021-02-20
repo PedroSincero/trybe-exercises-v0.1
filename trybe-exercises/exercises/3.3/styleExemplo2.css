@@ -1,0 +1,62 @@
+body {
+    font-family:cursive;
+    color: rgb(3, 174, 213);
+    font-size: 30px;
+}
+
+#cover{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+}
+
+.cover-images {
+    background-image: url(https://www.guiadasemana.com.br/contentFiles/image/2018/10/FEA/thumbnail/39210_w380h235_1540306448praia-de-itaguare-bertioga-shutterstockk2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.pessoa {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    position: relative;
+    margin-left: 450px;
+}
+
+.pessoa img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.pessoa::after{
+    content: "";
+    width: 100%;
+    max-width: 91px;
+    height: 189px;
+    position: absolute;
+    top: 27px;
+    right: 80px;
+    background-image: url(http://assets.stickpng.com/thumbs/584999ba7b7d4d76317f6001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+
+h1 {
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+
+
+.coqueiro {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
