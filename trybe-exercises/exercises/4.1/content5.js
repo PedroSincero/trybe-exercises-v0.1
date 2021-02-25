@@ -15,5 +15,5 @@ switch (trafficLight) {
     break;  
 
   default:
-    console.log("valor não encontrado")
+    console.log("valor não encontrado");
 }
