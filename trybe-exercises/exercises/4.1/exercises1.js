@@ -71,9 +71,10 @@ if (y + z + x === 180) {
 
 //Exemplo: bishop -> diagonals
 
-let rei = "baixo";
+let rei = "BAIXO";
+let reiLowerCase = rei.toLowerCase()
 
-switch (rei) {
+switch (reiLowerCase) {
   case "cima":
     console.log("REI MOVE d5 PARA d6 ".toUpperCase);
     break;
@@ -155,3 +156,44 @@ switch (true) {
 //Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
 //Bonus: use somente um if .
 
+let numeroPar1 = 1;
+let numeroPar2 = 2;
+let numeroPar3 = 3;
+
+if(((numeroPar1 + numeroPar1 + numeroPar3) % 2) == 0) {
+  console.log(true);
+}else {
+  console.log(false);
+}
+//Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
+
+let numeroImpar1 = 3;
+let numeroImpar2 = 5;
+let numeroImpar3 = 1;
+
+if(((numeroImpar1 + numeroImpar2 + numeroImpar3) % 2) == 1) {
+  console.log(true);
+}else {
+  console.log(false);
+}
+
+//Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+
+//Atente que, sobre o custo do produto, incide um imposto de 20%.
+
+//Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+
+//O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+
+//valorCustoTotal = valorCusto + impostoSobreOCusto
+//lucro = valorVenda - valorCustoTotal (lucro de um produto)
+let valorProduto = -1;
+let valorVenda = -1;
+
+if (valorProduto >= 0 && valorVenda >=0) {
+  let valorLucro = valorProduto *1.2;
+  let lucroTotal = (valorVenda - valorLucro) * 1000;
+  console.log(lucroTotal);
+}else {
+  console.log("Erro, Valor negativo")
+}
