@@ -1,0 +1,46 @@
+.header {
+  padding: 10px;
+  border: 7px solid red;
+  background-color: #ccffee;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  padding: 10px;
+  border: 5px solid red;
+  background-color: yellow;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.group {
+
+}
+.article {
+  padding: 10px;
+  border: 5px solid red;
+  background-color: palevioletred;
+  height: 500px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.section {
+  padding: 10px;
+  border: 5px solid red;
+  background-color: aqua;
+  height: 500px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+  
+
+
+.aside {
+  padding: 10px;
+  border: 5px solid red;
+  background-color: aqua;
+  height: 250px;
+  width: 100px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
